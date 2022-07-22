@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int workinghours(int &x,int &y)
+{
+    int ans=x*4+y;
+    return ans;
+    
+}
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int x,y;
+	    cin>>x>>y;
+	    cout<<workinghours(x,y)<<endl;
+	}
+	return 0;
+}
